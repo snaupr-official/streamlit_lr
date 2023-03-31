@@ -102,7 +102,7 @@ if app_mode == 'Data Ground':
         #     df_encode = pd.get_dummies(data = db_df, prefix ='OHE', prefix_sep= '_',
         #                             columns= cat_cols,drop_first= True, dtype= 'int8')
         elif add_dataset == "Wine Quality":
-            db_df = pd.read_csv('dataset\winequality-red.csv')
+            db_df = pd.read_csv('dataset/winequality-red.csv')
 
         return db_df
     db_df = load(data = add_dataset)
