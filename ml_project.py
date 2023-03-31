@@ -35,7 +35,7 @@ st.title("Understanding Linear Regression💡")
 app_mode = st.sidebar.selectbox('Select Page',['Background','Data Ground','Prediction'])
 # page 1 
 if app_mode == 'Background':
-    image = Image.open('Linear-Regression1.webp')
+    image = Image.open('./images/Linear-Regression1.webp')
 
     st.image(image, caption='Into the ML World:')
     st.subheader('🎯 Definition') 
